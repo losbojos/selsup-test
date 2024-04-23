@@ -1,0 +1,30 @@
+.editor{
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.editor__items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+}
+
+.editor__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.editor__paramName {
+  margin: 0;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.editor__paramInput {
+  max-width: 300px;
+}
